@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+
+# Binaries
+binaries/
+
+# Exclude
+!vendor/binaries/
