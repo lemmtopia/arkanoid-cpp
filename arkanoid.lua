@@ -20,6 +20,7 @@ workspace "arkanoid"
         system "Windows"
         defines { "PLATFORM_WINDOWS" }
 
-output_dir = "%cfg.system-%{cfg.architecture}/%{cfg.buildcfg}"
+output_dir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
 include "runtime/runtime.lua"
+include "game/game.lua"
